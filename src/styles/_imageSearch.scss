@@ -1,0 +1,23 @@
+#imagesResult {
+    display: flex;
+    flex-wrap: wrap;
+  
+    div {
+      width: calc(100% / 3);
+  
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 10px;
+      padding-bottom: 5px;
+  
+      .imgContainer {
+        width: 90%;
+  
+        img  {
+          max-width: 100%;
+  
+        }
+      }
+    }
+  }

@@ -1,0 +1,56 @@
+
+  #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    margin-top: 0px;
+  }
+  
+  
+  #startContainer {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+  
+  #buttonContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  header {
+    // border: 1px solid red;
+    width: 100%;
+    min-height: 20dvh;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+  
+  nav {
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: flex-end;
+      gap: 0.5rem;
+  
+      li {
+        .active {
+          border-bottom: 1px solid white;
+        }
+      }
+    }
+  }
+  
+  

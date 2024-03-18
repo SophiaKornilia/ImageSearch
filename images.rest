@@ -1,0 +1,11 @@
+POST http://localhost:3000/api/favouriteImages/save
+Content-Type: application/json
+
+{
+    "id" : "1",
+    "link" : "https://cdn2.oceansbridge.com/2017/08/12150254/Mdonna-And-Child-Enthroned-Carlo-Crivelli-oil-painting-1.jpg"
+}
+
+###
+
+GET http://localhost:3000/api/favouriteImages/print
